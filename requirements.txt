@@ -1,0 +1,9 @@
+nltk
+spacy
+scikit-learn
+pandas
+numpy
+beautifulsoup4
+regex
+textblob
+gensim
