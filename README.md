@@ -15,3 +15,5 @@ Similar to stemming, lemmatization reduces words to their base form, but it cons
 
 Text Cleaning
 The process of removing unwanted characters, formatting, or noise from text data to improve its quality and usability for analysis.
+
+There are many types of parsers that convert text into the computer vectors for proper processing of the human text.
