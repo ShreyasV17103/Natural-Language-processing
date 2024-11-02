@@ -4,7 +4,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 
-nltk.download('punkt')
+#nltk.download('punkt')
 
 
 def extract_words_and_frequency(url):
@@ -19,7 +19,7 @@ def extract_words_and_frequency(url):
     return freq_dist
 
 
-url = 'https://www.google.co.in/'
+url = 'https://en.wikipedia.org/wiki/Diwali'
 word_frequency = extract_words_and_frequency(url)
 
 for word, frequency in word_frequency.items():
