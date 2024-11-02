@@ -1,6 +1,7 @@
 import nltk
 from nltk.corpus import treebank
 from nltk.tag import AffixTagger
+nltk.download('punkt_tab')
 
 sentence = "This is an example sentence."
 tokens = nltk.word_tokenize(sentence)
